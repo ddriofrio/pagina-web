@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impacto de las Tecnologías Web</title>
+    <style>
+    form label {
+        color: #0d1925;
+    }
+
+      body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0d1925; /* Azul oscuro elegante */
+    color: #ffffff; /* Blanco para el texto */
+    margin: 0;
+    padding: 0;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+            padding: 200px 0; 
+        }
+
+        header::before {
+            content: "";
+            background: url('Tecnologia-del-mundo.jpg') no-repeat center center;
+            background-size: cover; 
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.9;
+            z-index: -1;
+            filter: brightness(50%);
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background-color: #000;
+            padding: 10px 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav img {
+            height: 40px;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00ffff;
+        }
+
+        .main-content {
+            padding-top: 80px; 
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            width: 80%;
+        }
+
+    .text-content {
+    flex: 2;
+    padding-right: 20px;
+    text-align: justify;
+    color: #000000; 
+    background-color: #f2f2f2; 
+    border-radius: 10px; 
+    padding: 20px; 
+  }
+
+        .text-content p {
+            margin-bottom: 20px;
+        }
+
+        .image-content {
+            flex: 1;
+            text-align: center;
+        }
+
+        .image-content img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .video-section {
+            width: 100%;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        video {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 60px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        form label {
+            display: block;
+            margin-bottom:  10px;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 5px solid #00ffff;   
+            background-color: #A9A9A9;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #00ffff;
+            color: #1f1f1f;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 5px;
+        }
+
+        form button:hover {
+            background-color: #009999;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333333;
+            color: #fff;footer {
+            position: relative; 
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-content {
+        padding-right: 0;
+        text-align: center;
+    }
+}
+
+            
+ }
+
+        h1, h2, h3 {
+            margin: 20px 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #00ffff; 
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #000000; 
+ }
+        .intro-title {
+    color: #f2f2f2; 
+ }
+        
+
+        h3 {
+            font-size: 1.5em;
+            color: #007bff;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+        }
+
+        .container {
+            background-color: #0d1925; 
+            color: #ffffff; 
+            padding: 20px;
+            border-radius: 10px; 
+            margin: 
+
+
+
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        <h1>Impacto de las Tecnologías Web en la Sociedad y los Negocios</h1>
+        <nav>
+            <img src="logo.png" alt="Logo">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="sobre nosotros.html">Sobre nosotros</a></li>
+                <li><a href="pagina3.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <div class="icons">
+            <img src="facebook.png" alt="Facebook">
+            <img src="twitter.jpg "alt="Twitter">
+         <img src="instagram.png" alt="Instagram">
+        </div>
+
+        <main>
+           <section class="content">
+    <article class="text-content">
+        <h2> Tecnologías Web y su Impacto Socioeconómico</h2>
+        <p>En la era digital actual, las tecnologías web desempeñan un papel fundamental tanto en la sociedad como en el ámbito empresarial. Estas tecnologías, que abarcan desde el desarrollo de páginas web hasta la implementación de aplicaciones en línea, han transformado radicalmente la forma en que interactuamos, consumimos información y realizamos transacciones comerciales.</p>
+        <h3>
+Impacto en la Sociedad:
+</h3>
+        <ul>
+            <li>El impacto de las tecnologías web en la sociedad es innegable. Han democratizado el acceso a la información y el conocimiento, permitiendo que personas de todo el mundo se conecten e interactúen en un espacio virtual compartido. Las redes sociales, los blogs y los foros en línea han facilitado la comunicación y la colaboración a escala global, fomentando el intercambio de ideas y experiencias.</li>
+            <li>Las tecnologías web han revolucionado la forma en que accedemos a servicios esenciales, como la educación, la atención médica, el entretenimiento y el comercio electrónico. .</li>
+            <li>Tambien puede presentar desafios como la brecha digital, la privacidad de los datos y la proliferación de la desinformación en línea.</li>
+        </ul>
+ <h3>
+Impacto en los Negocios:
+</h3>
+ <ul>
+            <li>En el ámbito empresarial, las tecnologías web han transformado por completo la forma en que las empresas operan y se relacionan con sus clientes. Desde la creación de sitios web corporativos hasta el desarrollo de aplicaciones móviles y plataformas de comercio electrónico, estas tecnologías han abierto nuevas oportunidades de mercado </li>
+            <li>Las empresas ahora pueden llegar a audiencias globales, establecer relaciones más estrechas con los clientes y ofrecer experiencias personalizadas y adaptadas a las necesidades individuales.</li>
+            <li>El análisis de datos, el marketing digital y el comercio electrónico son solo algunas de las áreas donde las tecnologías web han impulsado la innovación y el crecimiento empresarial.</li>
+        </ul>
+
+    </article>
+    <div class="image-content">
+        <img src="sociedad.jpg" alt="Descripción de la imagen 4">
+    </div>
+</section>
+
+<section class="content">
+    <article class="text-content">
+        <h2>Avances hacia la Web 3.0</h2>
+        <p>La Web 3.0 representa la próxima evolución significativa en la tecnología web, prometiendo una internet más inteligente, conectada y centrada en los datos. Esta nueva fase se enfoca en utilizar una comprensión de datos basada en máquinas para proporcionar una Web semántica y datificada, con el objetivo de crear sitios web más inteligentes y abiertos. Aquí se examinan los componentes clave y las tecnologías emergentes que están contribuyendo a su desarrollo.</p>
+        <h3>Aspectos Relevantes:</h3>
+        <ol>
+            <li>Comprensión de datos basada en máquinas:La Web 3.0 se basa en el uso de tecnologías avanzadas como la inteligencia artificial (IA) y el aprendizaje automático (ML) para interpretar y comprender datos de manera más efectiva</li>
+            <li>Web semántica y datificada: Esto facilita una mayor interoperabilidad entre diferentes sistemas y aplicaciones, permitiendo que los datos fluyan y se integren de manera más sencilla.</li>
+          
+        </ol>
+    </article>
+    <div class="image-content">
+        <img src="web 3.0.jpg" alt="Descripción de la imagen 5">
+    </div>
+</section>
+
+<section class="content">
+    <article class="text-content">
+        <h2>Tendencias Actuales en Desarrollo Web</h2>
+        <p>El desarrollo web continúa evolucionando rápidamente, impulsado por nuevas tecnologías y enfoques innovadores. A continuación, se analizan algunas de las tendencias emergentes más significativas en este campo, las cuales están moldeando el futuro del desarrollo web.</p>
+        <h3>Tendencias:</h3>
+        <ul>
+            <li>Integración de inteligencia artificial:La IA permite crear experiencias de usuario más personalizadas y eficientes, desde chatbots avanzados que mejoran el servicio al cliente hasta sistemas de recomendación que sugieren productos o contenidos basados en el comportamiento del usuario.</li>
+
+            <li>Desarrollo web sostenible:Las empresas están cada vez más enfocadas en reducir la huella de carbono de sus sitios web mediante el uso eficiente de recursos, optimización de código y alojamiento ecológico.</li>
+
+            <li>Crecimiento de las aplicaciones web progresivas (PWA): Las aplicaciones web progresivas (PWA) están ganando popularidad debido a su capacidad para ofrecer experiencias similares a las aplicaciones nativas, pero con las ventajas de las aplicaciones web. Las PWA son rápidas, confiables y pueden funcionar offline, lo que las hace ideales para usuarios con conexiones a internet inestables.</li>
+        </ul>
+    </article>
+    <div class="image-content">
+        <img src="web segura.png" alt="Descripción de la imagen 6">
+    </div>
+</section>
+
+<section class="content">
+    <article class="text-content">
+        <h2>Principales Tecnologías en Desarrollo Web</h2>
+        <p>El panorama del desarrollo web en 2024 está marcado por una serie de tecnologías líderes que están dando forma al futuro de la web. A continuación, se analizan las principales herramientas y enfoques que están en la vanguardia de la innovación en este campo.</p>
+        <h3>Tecnologías Principales:</h3>
+        <ol>
+            <li>JavaScript y frameworks modernos: JavaScript sigue siendo la columna vertebral del desarrollo web, y su importancia se ve reforzada por la proliferación de frameworks modernos que simplifican y agilizan el proceso de desarrollo</li>
+            <li>Enfoque sin servidor (Serverless):Al eliminar la necesidad de gestionar la infraestructura subyacente, los desarrolladores pueden centrarse en escribir código sin preocuparse por la administración de servidores.</li>
+            <li>Incorporación de blockchain;  En el contexto del desarrollo web, blockchain se utiliza para garantizar la integridad de los datos y las transacciones, así como para habilitar nuevos modelos de negocio basados en contratos inteligentes y tokens.</li>
+            <li>Uso creciente de WebAssembly: Permite ejecutar código de alto rendimiento en el navegador web, lo que abre nuevas posibilidades para mejorar el rendimiento y la experiencia del usuario en las aplicaciones web.</li>
+        </ol>
+    </article>
+    <div class="image-content">
+        <img src="web negocios.png" alt="Descripción de la imagen 7">
+    </div>
+</section>
+
+<section class="content">
+    <article class="text-content">
+        <h2>Impacto de las Tecnologías Web en la Sociedad y los Negocios</h2>
+        <p>Desde la mejora de la conectividad y la comunicación hasta la creación de nuevas oportunidades comerciales y la innovación en experiencias en línea, estas tecnologías continúan desempeñando un papel crucial en la forma en que vivimos, trabajamos y nos relacionamos en el mundo digital. Su evolución constante seguirá dando forma al futuro de la sociedad y los negocios en los años venideros.</p>
+        <h3>Impactos Clave:</h3>
+        <ul>
+            <li>Creación de experiencias en línea innovadoras.</li>
+            <li>Transformación de la interacción digital.</li>
+            <li>Mejora en la eficiencia operativa de los negocios.</li>
+        </ul>
+    </article>
+    <div class="image-content">
+        <img src="impacto tecnologico.png" alt="Descripción de la imagen 8">
+    </div>
+</section>
+<section class="video-section">
+    <h1>Video Relacionado</h1>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kNLMgff8WHk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+
+
+<section>
+    <h1>Formulario de Contacto</h1>
+    <form action="confirmacion del formulario.html" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="celular">Número de Celular:</label>
+        <input type="tel" id="celular" name="celular" pattern="[0-9]{10}" required>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form>
+ </section>
+
+
+  </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>Derechos de autor © 2024 - Doménica Riofrío</p>
+    </footer>
+</body>
+</html>

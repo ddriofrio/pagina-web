@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia, Misión y Visión</title>
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background-color: #0d1925; /* Azul oscuro elegante */
+            color: #ffffff; /* Blanco para el texto */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+            padding: 200px 0;
+            width: 100%;
+        }
+
+        header::before {
+            content: "";
+            background: url('sobre nosotros.jpg') no-repeat center center;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.9;
+            z-index: -1;
+            filter: brightness(50%);
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background-color: #000;
+            padding: 10px 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav img {
+            height: 40px;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00ffff;
+        }
+
+        .main-content {
+            padding-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .text-content {
+            width: 100%;
+            padding: 20px;
+            text-align: justify;
+            color: #000000;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .text-content h2 {
+            text-align: center;
+            color: #0d1925;
+            margin-bottom: 20px;
+        }
+
+        .text-content img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .text-content p {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333333;
+            color: #fff;
+            position: relative;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .text-content {
+                padding-right: 0;
+                text-align: center;
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Historia, Misión y Visión</h1>
+        <nav>
+            <img src="logo.png" alt="Logo">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="sobre nosotros.html">Sobre nosotros</a></li>
+                <li><a href="contactanos.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-content">
+        <section class="content">
+            <div class="text-content">
+                <h2>Nuestra Historia</h2>
+                <img src="historia.jpg" alt="Historia">
+                <p>Nuestra empresa fue fundada con el propósito de ofrecer educación de calidad en el ámbito de las tecnologías web. A lo largo de los años, hemos crecido y evolucionado, siempre con el objetivo de capacitar a individuos y organizaciones para que puedan aprovechar al máximo las oportunidades que ofrece el mundo digital.</p>
+            </div>
+        </section>
+        <section class="content">
+            <div class="text-content">
+                <h2>Nuestra Misión</h2>
+                <img src="mision.jpg" alt="Misión">
+                <p>Proveer recursos educativos de alta calidad para formar profesionales en el desarrollo de tecnologías web, impulsando la innovación y el crecimiento en el sector tecnológico.</p>
+            </div>
+        </section>
+        <section class="content">
+            <div class="text-content">
+                <h2>Nuestra Visión</h2>
+                <img src="vision.jpg" alt="Visión">
+                <p>Convertirnos en un referente global en la educación y formación en tecnologías disruptivas, facilitando el acceso al conocimiento y fomentando el desarrollo sostenible y la inclusión digital.</p>
+            </div>
+        </section>
+        <section class="content">
+            <div class="text-content">
+                <h2>Objetivo y Beneficiarios</h2>
+                <img src="objetivo.jpg" alt="Objetivo">
+                <p>Nuestro objetivo es empoderar a las personas y organizaciones a través de la educación tecnológica. Nos dirigimos a estudiantes, profesionales y empresas que desean mejorar sus habilidades y conocimientos en el desarrollo de tecnologías web. A través de nuestros cursos y recursos, buscamos cerrar la brecha digital y fomentar la innovación.</p>
+            </div>
+        </section>
+    </main>
+</div>
+<footer>
+    <p>Derechos de autor © 2024 - Doménica Riofrío</p>
+</footer>
+</body>
+</html>

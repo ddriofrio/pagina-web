@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación de Envío</title>
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background-color: #0d1925; /* Azul oscuro elegante */
+            color: #ffffff; /* Texto blanco */
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background-color: #000;
+            padding: 10px 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav img {
+            height: 40px;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00ffff;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ocupa toda la altura de la ventana */
+            padding-top: 60px; /* Ajuste para incluir la altura de la barra de navegación */
+        }
+
+        .container {
+            background-color: #0d1925; /* Azul oscuro elegante */
+            color: #ffffff; /* Texto blanco */
+            padding: 20px;
+            border-radius: 10px; /* Bordes redondeados */
+            text-align: center;
+        }
+
+        h1 {
+            color: #00ffff; /* Cyan */
+        }
+
+        p {
+            color: #ffffff; /* Texto blanco */
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #00ffff; /* Cyan */
+            color: #1f1f1f; /* Texto negro */
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none; /* Elimina subrayado del enlace */
+        }
+
+        .button:hover {
+            background-color: #009999; /* Cyan oscuro */
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="logo.png" alt="Logo">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="sobre nosotros.html">Sobre nosotros</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <div class="container">
+            <div class="image-container">
+                <img src="confirmacion de formulario.png" alt="Imagen de confirmación">
+            </div>
+            <h1>¡Mensaje Enviado!</h1>
+            <p>Gracias por ponerte en contacto con nosotros. Tu mensaje ha sido enviado correctamente.</p>
+            <div class="button-container">
+                <a href="index.html" class="button">Regresar a la Página Principal</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Derechos de autor © 2024 - Doménica Riofrío</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos de Tecnologías Disruptivas</title>
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background-color: #0d1925; /* Azul oscuro elegante */
+            color: #ffffff; /* Blanco para el texto */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+            padding: 200px 0; 
+        }
+
+        header::before {
+            content: "";
+            background: url('cursos intro.jpg') no-repeat center center;
+            background-size: cover; 
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.9;
+            z-index: -1;
+            filter: brightness(50%);
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background-color: #000;
+            padding: 10px 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav img {
+            height: 40px;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00ffff;
+        }
+
+        .main-content {
+            padding-top: 80px; 
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            width: 80%;
+        }
+
+        .text-content {
+            flex: 2;
+            padding-right: 20px;
+            text-align: justify;
+            color: #000000; 
+            background-color: #f2f2f2; 
+            border-radius: 10px; 
+            padding: 20px; 
+        }
+
+        .text-content p {
+            margin-bottom: 20px;
+        }
+
+        .image-content {
+            flex: 1;
+            text-align: center;
+        }
+
+        .image-content img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .video-section {
+            width: 100%;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        video {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333333;
+            color: #fff;
+            position: relative;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .text-content {
+                padding-right: 0;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cursos de Tecnologías Disruptivas</h1>
+        <nav>
+            <img src="logo.png" alt="Logo">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="sobre nosotros.html">Sobre nosotros</a></li>
+                <li><a href="contactanos.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-content">
+        <main>
+            <section class="content">
+                <div class="text-content">
+                    <h2>Cursos Disponibles</h2>
+                    <p>Explora nuestros cursos sobre tecnologías disruptivas para la creación de páginas web. Aprende sobre las últimas tendencias y herramientas que están cambiando la forma en que desarrollamos y diseñamos sitios web.</p>
+                    <ul>
+                           <li><a href="https://n9.cl/5lwjh">Curso de Desarrollo Web con HTML, CSS y JavaScript</a></li>
+                          <li><a href="https://n9.cl/40t89">Introducción a las Tecnologías Blockchain</a></li>
+                           <li><a href="https://n9.cl/43kc7">Aplicaciones de Inteligencia Artificial en el Desarrollo Web</a></li>
+                          <li><a href="https://n9.cl/fcjsu">Desarrollo de Aplicaciones Web Responsivas</a></li>
+                    </ul>
+                </div>
+                <div class="image-content">
+                    <img src="cursos foto.jpg" alt="Cursos">
+                </div>
+            </section>
+        <section class="video-section">
+            <h1>Video Relacionado</h1>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mK8H9lY2xcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        </main>
+    </div>
+    <footer>
+        <p>Derechos de autor © 2024 - Doménica Riofrío</p>
+    </footer>
+</body>
+</html>
